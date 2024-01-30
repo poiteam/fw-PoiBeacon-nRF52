@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/MinGW/include/**",
+        "C:/Hardware/nRF5_SDK_17.1.0_ddde560/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-gcc-x86",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**",
+          "C:/MinGW/include/**",
+          "C:/Hardware/nRF5_SDK_17.1.0_ddde560/**"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      },
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "configurationProvider": "nrf-connect",
+      "compilerPath": "C:/MinGW/bin/gcc.exe"
+    }
+  ],
+  "version": 4
+}
