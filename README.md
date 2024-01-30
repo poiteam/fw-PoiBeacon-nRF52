@@ -1,10 +1,12 @@
 # PoiBeacon
 
+## Chip and SDK
+
 - Developed with nRF SDK 17.1.0
 - Softdevice s132 Developed for nRF52832
 - Softdevice s112 Developed for nRF52810
 
-## Beacon Default Description
+### Beacon Default Description
 
 - Device Name                    = "nRF52832"
 - Beacon Info Data Length        =  0x17   //                          1 Byte
@@ -17,7 +19,7 @@
 - Advertising Interval           =  0x01C2 // 450                      2  Byte
 - Tx Power                       =  -4                                 1  Byte
 
-## Scan Response Description
+### Scan Response Description
 
 - telemetry_default_service_info[8]  = {0, 0, 0, 0, 0, 0, 0, 0};
 
@@ -42,7 +44,7 @@ beacon_password  =  {0x41, 0x0D, 0x84, 0xFD, 0x4E}
 
 - iii. Beacon info Characteristic: User can change major-minor 4 bytes, advertising interval 2 bytes, Tx power 1 byte and APP RSSI (on 1 meter) 1 byte. All these informations are should written at once. Characteristic UUID = 0x1005.
 
-##### Encryption Settings
+### ENCRYPTION Settings
 
 - You can use MINOR_ENCRYPTION_STATUS variable in poi_sdk_config.h
   MINOR_ENCRYPTION_STATUS  0  // Encrypiton Disable
