@@ -47,5 +47,5 @@ beacon_password  =  {0x41, 0x0D, 0x84, 0xFD, 0x4E}
 ## Encryption Settings
 
 - You can use MINOR_ENCRYPTION_STATUS variable in poi_sdk_config.h
-  MINOR_ENCRYPTION_STATUS  0  // Encrypiton Disable
-  MINOR_ENCRYPTION_STATUS  1  // Encryption Enable
+- MINOR_ENCRYPTION_STATUS  0  // Encrypiton Disable
+- MINOR_ENCRYPTION_STATUS  1  // Encryption Enable
