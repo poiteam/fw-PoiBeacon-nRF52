@@ -3,7 +3,13 @@
 
 #include <stdint.h>
 
-#define POI_DEVICE_NAME                            "nRF52832-"
+#if defined (BOARD_IGA_BEACON)
+    #define POI_DEVICE_NAME   "nRF52810 Test"
+#endif
+#if defined (BOARD_TRACINDO )
+    #define POI_DEVICE_NAME   "nRF52832 Test"
+#endif 
+
 #define POI_COMPANY_IDENTIFIER                     0x004C
 #define POI_FIRMWARE_VERSION                       0x05
 #define POI_BEACON_INFO_LENGTH                     0x17

@@ -486,23 +486,6 @@
 // </h> 
 //==========================================================
 
-// <h> nRF_Core 
-
-//==========================================================
-// <e> NRF_MPU_ENABLED - nrf_mpu - Module for MPU
-//==========================================================
-#ifndef NRF_MPU_ENABLED
-#define NRF_MPU_ENABLED 0
-#endif
-// <q> NRF_MPU_CLI_CMDS  - Enable CLI commands specific to the module
- 
-
-#ifndef NRF_MPU_CLI_CMDS
-#define NRF_MPU_CLI_CMDS 0
-#endif
-
-// </e>
-
 // <e> NRF_STACK_GUARD_ENABLED - nrf_stack_guard - Module for Protecting Stack
 //==========================================================
 #ifndef NRF_STACK_GUARD_ENABLED
