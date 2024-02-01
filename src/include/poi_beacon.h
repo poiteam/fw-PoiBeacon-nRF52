@@ -9,6 +9,9 @@
 #if defined (BOARD_TRACINDO )
     #define POI_DEVICE_NAME   "nRF52832 Test"
 #endif 
+#if defined (BOARD_PCA10040 )
+    #define POI_DEVICE_NAME   "PCA10040 Test"
+#endif 
 
 #define POI_COMPANY_IDENTIFIER                     0x004C
 #define POI_FIRMWARE_VERSION                       0x05

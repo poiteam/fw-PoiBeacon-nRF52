@@ -32,7 +32,6 @@ void poi_advertising_init(poi_beacon_info_t a_poi_beacon_config){
     ble_advdata_t   advdata, scanrsp;
     uint8_t flags = BLE_GAP_ADV_FLAGS_LE_ONLY_GENERAL_DISC_MODE;
     poi_beacon_t * p_poi_beacon               = get_poi_beacon(); 
-
 #if MINOR_ENCRYPTION_STATUS 
     poi_encryption_init(a_poi_beacon_config.minor,a_poi_beacon_config.minor);
     encryption_timeout_timer_start();;

@@ -3,7 +3,6 @@
 
 #include "app_error.h"
 #include "nrf_pwr_mgmt.h"
-#include "bsp_btn_ble.h"
 
 #include "poi_log.h"
 #include "poi_beacon.h"
@@ -140,13 +139,11 @@ void poi_power_mgmt_init(){
 }
 
 int main(){
+    
 
     poi_log_init();
     poi_timer_init();
     poi_power_mgmt_init();
-#if MINOR_ENCRYPTION_STATUS 
-    poi_rng_init();
-#endif     
     memcpy(&poi_beacon.poi_beacon_info, m_beacon_info_default, sizeof(m_beacon_info_default));
     poi_flash_init();
     poi_flash_read_beacon_info(poi_beacon.poi_beacon_info.uuid, poi_beacon.poi_beacon_info.major);

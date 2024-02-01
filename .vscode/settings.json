@@ -75,6 +75,7 @@
     "ble_advertising.h": "c",
     "poi_flash_storage.h": "c",
     "nrf_delay.h": "c",
-    "nrf_fstorage_nvmc.h": "c"
+    "nrf_fstorage_nvmc.h": "c",
+    "poi_encryption.h": "c"
   }
 }

@@ -5,8 +5,11 @@
 - Developed with nRF SDK 17.1.0
 - Softdevice s132 Developed for nRF52832
 - Softdevice s112 Developed for nRF52810
+- Softdevice s132 Developed for PCA10040 DK Board
 
 ## Beacon Default Description
+
+- You can find all this information in poi_beacon.h file.
 
 - Device Name                    = "nRF52832"
 - Beacon Info Data Length        =  0x17   //                          1 Byte
@@ -35,10 +38,8 @@
 - UUID_CHARACTERISTC_UUID     0x1004 
 - BEACON_CHARACTERISTC_UUID   0x1005 
 
-
 - i. Password Characteristic: First of all user must enter correct password to change  information about beacon this characteristic is handling the password control with control functions. Characteristic UUID = 0x1001. (5 bytes)
 beacon_password  =  {0x41, 0x0D, 0x84, 0xFD, 0x4E}
-
 
 - ii. Base-UUID Characteristic: To change the Base UUID information in the beacon, user need to send Base UUID values to the beacon via this characteristic and values needs to be 16 bytes hex values. Characteristic UUID = 0x1004
 

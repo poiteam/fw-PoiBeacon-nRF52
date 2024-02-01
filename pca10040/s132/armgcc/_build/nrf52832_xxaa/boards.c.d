@@ -73,7 +73,7 @@ _build/nrf52832_xxaa/boards.c.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- ../../../../../../components/boards/tracindo_beacon.h
+ ../../../../../../components/boards/pca10040.h
 
 ../../../../../../components/boards/boards.h:
 
@@ -223,4 +223,4 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 ../../../../../../modules/nrfx/drivers/nrfx_errors.h:
 
-../../../../../../components/boards/tracindo_beacon.h:
+../../../../../../components/boards/pca10040.h:
