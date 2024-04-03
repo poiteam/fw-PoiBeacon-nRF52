@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Hardware/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/fw-PoiBeacon-nRF52810-Developx",
-      "program": "c:/Hardware/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/fw-PoiBeacon-nRF52810-Developx/build/Debug/outDebug",
+      "cwd": "c:/Hardware/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/fw-PoiBeacon-nRF52",
+      "program": "c:/Hardware/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/fw-PoiBeacon-nRF52/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

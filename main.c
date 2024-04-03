@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdint.h>
+#include "stdio.h"
 
 #include "app_error.h"
 #include "nrf_pwr_mgmt.h"
@@ -16,6 +17,7 @@
 #include "poi_battery.h"
 #include "poi_encryption.h"
 #include "poi_sdk_config.h"
+#include "iga_beacon.h"
 
 NRF_BLE_GATT_DEF(m_gatt);
 NRF_BLE_QWR_DEF(m_qwr);
@@ -96,14 +98,21 @@ void idle_state_handle(){
 
         }
         if(poi_flags.beacon_info_changed){
-
+            NRF_LOG_INFO("Data Changed flag is changed"); 
             memcpy(poi_beacon.poi_beacon_info.major, poi_beacon.beacon_feature, 4);
-            poi_beacon.poi_beacon_info.advertising_interval = (((uint16_t)poi_beacon.beacon_feature[4] >> 8 | poi_beacon.beacon_feature[5]));
+            NRF_LOG_INFO("Major/Minor is updated"); 
+            poi_beacon.poi_beacon_info.advertising_interval = (((uint16_t)poi_beacon.beacon_feature[4] << 8 | poi_beacon.beacon_feature[5]));
+            NRF_LOG_INFO("Advertising is updated"); 
             poi_beacon.poi_beacon_info.tx_power             = poi_beacon.beacon_feature[6];
+            NRF_LOG_INFO("TX_power is updated"); 
             poi_beacon.poi_beacon_info.rssi_value           = poi_beacon.beacon_feature[7];
+            NRF_LOG_INFO("RSSI is updated"); 
             poi_flags.beacon_info_changed                   = false;
+            NRF_LOG_INFO("Data Changed flag is changed"); 
+            
 
-        }        
+        }       
+        
         poi_advertising_init(poi_beacon.poi_beacon_info);
         poi_flash_erase_beacon_info();
         poi_flash_write_beacon_info(poi_beacon.poi_beacon_info.uuid,poi_beacon.poi_beacon_info.major);
@@ -155,7 +164,8 @@ int main(){
     poi_advertising_init(poi_beacon.poi_beacon_info);
     poi_conn_params_init();
     poi_advertising_start();
-
+    NRF_LOG_INFO("Beacon is running");
+    NRF_LOG_FLUSH();
     for(;;){
 
         idle_state_handle();

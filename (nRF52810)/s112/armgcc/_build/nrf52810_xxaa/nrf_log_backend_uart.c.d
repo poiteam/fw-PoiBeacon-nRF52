@@ -45,7 +45,60 @@ _build/nrf52810_xxaa/nrf_log_backend_uart.c.o: \
  ../../../../../../components/softdevice/s112/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s112/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
- ../../../../../../components/libraries/util/nrf_assert.h
+ ../../../../../../components/libraries/util/nrf_assert.h \
+ ../../../../../../components/libraries/log/nrf_log_backend_uart.h \
+ ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
+ ../../../../../../components/libraries/memobj/nrf_memobj.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdlib.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\stdlib.h \
+ ../../../../../../components/libraries/util/sdk_errors.h \
+ ../../../../../../components/libraries/balloc/nrf_balloc.h \
+ ../../../../../../components/libraries/util/app_util_platform.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_soc.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_svc.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_error.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_error_soc.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_nvic.h \
+ ../../../../../../components/libraries/util/app_error.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdio.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdarg.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\types.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_pthreadtypes.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\types.h \
+ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\stdio.h \
+ ../../../../../../components/libraries/util/app_error_weak.h \
+ ../../../../../../components/libraries/util/app_util.h \
+ ../../../../../../components/libraries/log/nrf_log_instance.h \
+ ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../../../../components/libraries/util/nordic_common.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
+ ../../../../../../components/libraries/log/src/nrf_log_backend_serial.h \
+ ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
+ ../../../../../../external/fprintf/nrf_fprintf.h \
+ ../../../../../../components/libraries/log/src/nrf_log_internal.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
+ ../../../../../../integration/nrfx/legacy/nrf_drv_uart.h \
+ ../../../../../../modules/nrfx/nrfx.h \
+ ../../../../../../integration/nrfx/nrfx_config.h \
+ ../../../../../../modules/nrfx/drivers/nrfx_common.h \
+ ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
+ ../../../../../../modules/nrfx/mdk/nrf52810_peripherals.h \
+ ../../../../../../integration/nrfx/nrfx_glue.h \
+ ../../../../../../integration/nrfx/legacy/apply_old_config.h \
+ ../../../../../../modules/nrfx/soc/nrfx_irqs.h \
+ ../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52810.h \
+ ../../../../../../components/libraries/util/nrf_assert.h \
+ ../../../../../../modules/nrfx/soc/nrfx_coredep.h \
+ ../../../../../../modules/nrfx/soc/nrfx_atomic.h \
+ ../../../../../../components/libraries/util/sdk_resources.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_sd_def.h \
+ ../../../../../../components/softdevice/s112/headers/nrf_soc.h \
+ ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_uarte.h \
+ ../../../../../../modules/nrfx/hal/nrf_uarte.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_uart.h \
+ ../../../../../../modules/nrfx/hal/nrf_uart.h \
+ ../../../../../../components/libraries/util/app_error.h
 
 ../../../../../../components/libraries/util/sdk_common.h:
 
@@ -138,3 +191,109 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 ../../../../../../components/libraries/util/sdk_macros.h:
 
 ../../../../../../components/libraries/util/nrf_assert.h:
+
+../../../../../../components/libraries/log/nrf_log_backend_uart.h:
+
+../../../../../../components/libraries/log/nrf_log_backend_interface.h:
+
+../../../../../../components/libraries/memobj/nrf_memobj.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdlib.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\stdlib.h:
+
+../../../../../../components/libraries/util/sdk_errors.h:
+
+../../../../../../components/libraries/balloc/nrf_balloc.h:
+
+../../../../../../components/libraries/util/app_util_platform.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_soc.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_svc.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_error.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_error_soc.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_nvic.h:
+
+../../../../../../components/libraries/util/app_error.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdio.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdarg.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\types.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_pthreadtypes.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\types.h:
+
+c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\stdio.h:
+
+../../../../../../components/libraries/util/app_error_weak.h:
+
+../../../../../../components/libraries/util/app_util.h:
+
+../../../../../../components/libraries/log/nrf_log_instance.h:
+
+../../../../../../components/libraries/experimental_section_vars/nrf_section.h:
+
+../../../../../../components/libraries/util/nordic_common.h:
+
+../../../../../../components/libraries/log/nrf_log_types.h:
+
+../../../../../../components/libraries/log/src/nrf_log_backend_serial.h:
+
+../../../../../../components/libraries/log/nrf_log_backend_interface.h:
+
+../../../../../../external/fprintf/nrf_fprintf.h:
+
+../../../../../../components/libraries/log/src/nrf_log_internal.h:
+
+../../../../../../components/libraries/log/nrf_log_types.h:
+
+../../../../../../integration/nrfx/legacy/nrf_drv_uart.h:
+
+../../../../../../modules/nrfx/nrfx.h:
+
+../../../../../../integration/nrfx/nrfx_config.h:
+
+../../../../../../modules/nrfx/drivers/nrfx_common.h:
+
+../../../../../../modules/nrfx/mdk/nrf_peripherals.h:
+
+../../../../../../modules/nrfx/mdk/nrf52810_peripherals.h:
+
+../../../../../../integration/nrfx/nrfx_glue.h:
+
+../../../../../../integration/nrfx/legacy/apply_old_config.h:
+
+../../../../../../modules/nrfx/soc/nrfx_irqs.h:
+
+../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52810.h:
+
+../../../../../../components/libraries/util/nrf_assert.h:
+
+../../../../../../modules/nrfx/soc/nrfx_coredep.h:
+
+../../../../../../modules/nrfx/soc/nrfx_atomic.h:
+
+../../../../../../components/libraries/util/sdk_resources.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_sd_def.h:
+
+../../../../../../components/softdevice/s112/headers/nrf_soc.h:
+
+../../../../../../modules/nrfx/drivers/nrfx_errors.h:
+
+../../../../../../modules/nrfx/drivers/include/nrfx_uarte.h:
+
+../../../../../../modules/nrfx/hal/nrf_uarte.h:
+
+../../../../../../modules/nrfx/drivers/include/nrfx_uart.h:
+
+../../../../../../modules/nrfx/hal/nrf_uart.h:
+
+../../../../../../components/libraries/util/app_error.h:

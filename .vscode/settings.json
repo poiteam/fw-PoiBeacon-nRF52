@@ -57,25 +57,9 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "poi_gap_params.h": "c",
-    "string.h": "c",
-    "poi_gatt_init.h": "c",
-    "nrf_ble_gatt.h": "c",
-    "ble_srv_common.h": "c",
-    "poi_softdevice.h": "c",
-    "poi_service.h": "c",
-    "poi_beacon.h": "c",
-    "poi_char_action.h": "c",
-    "nrf_fstorage.h": "c",
-    "poi_battery.h": "c",
-    "stdint.h": "c",
-    "nrfx_saadc.h": "c",
-    "nrf_drv_saadc.h": "c",
-    "ble_gatts.h": "c",
-    "ble_advertising.h": "c",
-    "poi_flash_storage.h": "c",
-    "nrf_delay.h": "c",
-    "nrf_fstorage_nvmc.h": "c",
-    "poi_encryption.h": "c"
+    "poi_sdk_config.h": "c",
+    "iga_beacon.h": "c",
+    "poi_log.h": "c",
+    "poi_timer.h": "c"
   }
 }

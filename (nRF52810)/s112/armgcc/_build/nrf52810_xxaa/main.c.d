@@ -19,13 +19,13 @@ _build/nrf52810_xxaa/main.c.o: ../../../main.c \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdint.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_intsup.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_stdint.h \
- ../../../../../../components/libraries/util/app_error.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdio.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdarg.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\types.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_pthreadtypes.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\types.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\stdio.h \
+ ../../../../../../components/libraries/util/app_error.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52810.h \
@@ -139,7 +139,9 @@ _build/nrf52810_xxaa/main.c.o: ../../../main.c \
  ../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h \
  ../../../../../../modules/nrfx/hal/nrf_saadc.h \
- ../../../src/include/poi_encryption.h ../../../poi_sdk_config.h
+ ../../../src/include/poi_encryption.h ../../../poi_sdk_config.h \
+ ../../../../../../components/boards/iga_beacon.h \
+ ../../../../../../modules/nrfx/hal/nrf_gpio.h
 
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\string.h:
 
@@ -181,8 +183,6 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\_stdint.h:
 
-../../../../../../components/libraries/util/app_error.h:
-
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdio.h:
 
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdarg.h:
@@ -194,6 +194,8 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\machine\types.h:
 
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\sys\stdio.h:
+
+../../../../../../components/libraries/util/app_error.h:
 
 c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdbool.h:
 
@@ -428,3 +430,7 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 ../../../src/include/poi_encryption.h:
 
 ../../../poi_sdk_config.h:
+
+../../../../../../components/boards/iga_beacon.h:
+
+../../../../../../modules/nrfx/hal/nrf_gpio.h:

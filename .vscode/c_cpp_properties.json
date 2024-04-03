@@ -3,10 +3,7 @@
     {
       "name": "windows-gcc-x86",
       "includePath": [
-        "${workspaceFolder}/**",
-        "C:/MinGW/include/**",
-        // "C:/Hardware/nRF5_SDK_17.1.0_ddde560/**",
-        "D:/Hardware/Hardware/nRF5_SDK_17.1.0_ddde560/**"
+        "${workspaceFolder}/**"
       ],
       "defines": [
         "_DEBUG",
@@ -18,8 +15,7 @@
         "path": [
           "${workspaceFolder}/**",
           "C:/MinGW/include/**",
-          // "C:/Hardware/nRF5_SDK_17.1.0_ddde560/**"
-          "D:/Hardware/Hardware/nRF5_SDK_17.1.0_ddde560/**"
+          "C:/Hardware/nRF5_SDK_17.1.0_ddde560/**"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
